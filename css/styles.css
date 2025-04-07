@@ -732,7 +732,7 @@ body.lock {
   width: 18px;
   height: 18px;
   padding: 8px 11px 12px 9px;
-  background: url("/img/icons/metro.svg") center no-repeat;
+  background: url("img/icons/metro.svg") center no-repeat;
   background-color: #E3EDF9;
   border-radius: 20px;
 }
