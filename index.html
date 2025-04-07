@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="img/title.png" />
+  <link href="https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular,700" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <title>Test</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__inner container">
+      <a href="index.html" class="logo">
+        <img src="img/logo.svg" alt="Logo" />
+      </a>
+      <div class="menu">
+        <div class="menu__icon">
+
+          <svg class="favorites favorites--header" viewBox="0 0 20 17">
+            <use xlink:href="sprite.svg#favorites"></use>
+          </svg>
+          <svg class="bag favorites--header" viewBox="0 0 20 21">
+            <use xlink:href="sprite.svg#bag"></use>
+          </svg>
+          <svg class="profile profile--mobile" viewBox="0 0 19 19">
+            <use xlink:href="sprite.svg#profile"></use>
+          </svg>
+        </div>
+        <nav class="menu__nav">
+          <ul class="menu__list">
+            <li><a href="#" class="link menu__link">Создать заявку</a></li>
+            <li><a href="#" class="link menu__link">Мои заявки</a></li>
+          </ul>
+          <div class="user">
+            <a href="#" class="link">
+              <svg class="favorites favorites--header" viewBox="0 0 20 17">
+                <use xlink:href="sprite.svg#favorites"></use>
+              </svg>
+            </a>
+            <a href="#" class="link user__link">Кладислав Вленов</a>
+            <svg class="profile" viewBox="0 0 19 19">
+              <use xlink:href="sprite.svg#profile"></use>
+            </svg>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="intro container">
+    <!-- Добавляем мобильную панель перед закрывающим тегом body -->
+    <div class="mobile-panel" id="mobilePanel">
+      <div class="panel-header" id="panelHeader">
+        <div class="panel__title text--600"><span>25</span> вариантов размещения</div>
+      </div>
+      <div class="panel-content" id="panelContent"></div>
+    </div>
+    <div class="offer">
+      <div class="offer__list">
+        <div class="offer__item ">
+          <div class="offer__img">
+            <div class="slider" id="slider">
+              <img class="slide" src="/img/images/image-5.png" alt="offer-img">
+              <img class="slide" src="/img/images/image-4.png" alt="offer-img">
+              <img class="slide" src="/img/images/image-3.png" alt="offer-img">
+              <img class="slide" src="/img/images/image-2.png" alt="offer-img">
+              <img class="slide" src="/img/images/image-1.png" alt="offer-img">
+            </div>
+            <svg class="favorites favorites--offer" viewBox="0 0 20 17">
+              <use xlink:href="sprite.svg#favorites"></use>
+            </svg>
+            <p class="offer__tag">
+              <svg class="trand-line" viewBox="0 0 16 16">
+                <use xlink:href="sprite.svg#trand-line"></use>
+              </svg>
+              Лучшая цена у нас
+            </p>
+            <div class="dots" id="dots"></div>
+          </div>
+          <div class="offer__content">
+            <div class="offer__header">
+              <div>
+                <p class="text text--600">Хостел 2</p>
+                <p class="text text--600 reviews">121 отзывов <span class="rating rating--4">4.9</span></p>
+              </div>
+              <div>
+                <p class="name"><a>Хостел на Меркурии</a>
+                  <a href="" class="like">
+                    <svg class="like__icon" viewBox="0 0 12 11">
+                      <use xlink:href="sprite.svg#like"></use>
+                    </svg>
+                  </a>
+                </p>
+              </div>
+              <div class="flex adress">
+                <p class="text">г. Красногорск, ул. Лесная 12</p>
+
+                <p class="text">1,3 км от центра</p>
+              </div>
+
+              <div>
+                <p class="metro">Им. Владислава <span>300 м</span></p>
+                <a class="link show-on-map" data-id="1" href="">Показать на карте</a>
+              </div>
+            </div>
+            <div class="offer__footer">
+              <div>
+                <p class="text text--dark text--600">Двухместный стандарт</p>
+                <p class="text text--dark">Двухместная кровать</p>
+                <div class="offer__features">
+                  <img src="/img/icons/union-1.svg" alt="">
+                  <img src="/img/icons/union-2.svg" alt="">
+                  <img src="/img/icons/union-3.svg" alt="">
+                  <img src="/img/icons/union-4.svg" alt="">
+                  <img src="/img/icons/union-5.svg" alt="">
+                  <img src="/img/icons/union-6.svg" alt="">
+                </div>
+
+                <div class="offer__advantages">
+                  <p class="personal">Бесплатная отмена</p>
+                  <p class="personal">Завтрак включен</p>
+                  <p>Оплата на месте</p>
+                </div>
+              </div>
+              <div class="value">
+                <p class="text text--payment">За 5 ночей и 2 гостя</p>
+                <p class="price">122 000 ₽</p>
+                <a href="" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="offer__temporary offer__temporary--personal">
+          <p>Персональное предложение отеля</p>
+          <p class="clock">01:59
+            <svg class="clock__icon clock__icon--personal" viewBox="0 0 18 18">
+              <use xlink:href="sprite.svg#clock"></use>
+            </svg>
+          </p>
+        </div>
+
+
+        <div class="offer__item ">
+          <div class="offer__img">
+            <div class="slider" id="slider">
+              <img class="slide" src="/img/images/image-5.png" alt="offer-img">
+              <img class="slide" src="/img/images/image-4.png" alt="offer-img">
+              <img class="slide" src="/img/images/image-3.png" alt="offer-img">
+              <img class="slide" src="/img/images/image-2.png" alt="offer-img">
+              <img class="slide" src="/img/images/image-1.png" alt="offer-img">
+            </div>
+            <svg class="favorites favorites--offer active" viewBox="0 0 20 17">
+              <use xlink:href="sprite.svg#favorites"></use>
+            </svg>
+            <p class="offer__tag">
+              <svg class="trand-line" viewBox="0 0 16 16">
+                <use xlink:href="sprite.svg#trand-line"></use>
+              </svg>
+              Лучшая цена у нас
+            </p>
+            <div class="dots" id="dots"></div>
+          </div>
+          <div class="offer__content">
+            <div class="offer__header">
+              <div>
+                <p class="text text--600">Хостел 2</p>
+                <p class="text text--600 reviews">121 отзывов <span class="rating rating--3">3.2</span></p>
+              </div>
+              <div>
+                <p class="name"><a>Хостел на Меркурии</a>
+                  <a href="" class="like">
+                    <svg class="like__icon" viewBox="0 0 12 11">
+                      <use xlink:href="sprite.svg#like"></use>
+                    </svg>
+                  </a>
+                </p>
+              </div>
+              <div class="flex adress">
+                <p class="text">г. Красногорск, ул. Лесная 12</p>
+
+                <p class="text">1,3 км от центра</p>
+              </div>
+
+              <div>
+                <p class="metro">Им. Владислава <span>300 м</span></p>
+                <a class="link show-on-map" data-id="2" href="">Показать на карте</a>
+              </div>
+            </div>
+            <div class="offer__footer">
+              <div>
+                <p class="text text--dark text--600">Одноместный стандарт</p>
+                <p class="text text--dark">Трехместная кровать </p>
+                <div class="offer__features">
+                  <img src="/img/icons/union-1.svg" alt="union-1">
+                  <img src="/img/icons/union-2.svg" alt="union-2">
+                  <img src="/img/icons/union-3.svg" alt="union-3">
+                  <img src="/img/icons/union-4.svg" alt="union-4">
+                  <img src="/img/icons/union-5.svg" alt="union-5">
+                  <img src="/img/icons/union-6.svg" alt="union-6">
+                </div>
+
+                <div class="offer__advantages">
+                  <p class="special">Платная отмена</p>
+                  <p>Без завтрака</p>
+                  <p>Оплата на месте</p>
+                </div>
+              </div>
+              <div class="value">
+                <p class="text text--payment">За 5 ночей и 2 гостя</p>
+                <p class="price">122 000 ₽</p>
+                <a href="" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="offer__temporary offer__temporary--special">
+          <p>Специальное предложение отеля</p>
+          <p class="clock">01:59
+            <svg class="clock__icon clock__icon--special" viewBox="0 0 18 18">
+              <use xlink:href="sprite.svg#clock"></use>
+            </svg>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <footer class="footer">
+
+  </footer>
+  <div style="display: none;">
+    <object type="image/svg+xml" data="/sprite.svg"></object>
+  </div>
+  <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

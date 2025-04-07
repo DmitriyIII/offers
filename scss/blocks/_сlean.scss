@@ -1,0 +1,102 @@
+/**/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+p,
+a {
+    line-height: normal;
+}
+
+a:focus,
+a:active {
+    outline: none;
+    max-width: fit-content;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+header,
+nav,
+aside,
+footer {
+    display: block;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    font-size: 100%;
+    font-size: 14px;
+}
+
+img,
+video,
+canvas {
+    overflow: hidden;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: 1;
+}
+
+/************************** Обнуление ***********************/
+/* Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и выше)
+@media (max-width: 576px) {}
+Устройства Medium (планшеты, 768 пикселей и выше)
+@media (max-width: 768px) {}
+Устройства Large (настольные компьютеры, 992 пикселей и выше)
+@media (max-width: 992px) {}
+Устройства X-Large (большие настольные компьютеры, 1200 пикселей и выше)
+@media (max-width: 1200px) {}*/
